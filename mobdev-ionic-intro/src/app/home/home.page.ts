@@ -9,3 +9,5 @@ export class HomePage {
   myVariable2: string = 'The force is very special with me!'; 
   updateMyValue() {         this.myVariable = 'Now the force is even stronger!';     }
   updateMyValue2() {        this.myVariable2 = 'Now the force is even super strong!';     } }
+
+  
