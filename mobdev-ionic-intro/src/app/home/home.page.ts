@@ -9,6 +9,7 @@ export class HomePage {
   btnClicked(){
     alert("Don't click me!!");
   }
+  tutorialShown = false;
   myVariable: string = 'The force is with me!'; 
   myVariable2: string = 'The force is very special with me!'; 
   updateMyValue() {         this.myVariable = 'Now the force is even stronger!';     }
