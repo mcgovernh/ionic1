@@ -21,10 +21,29 @@
   <div id="hpage">Hello there! From the scss page#2</div>
   <a style="color:white;font-size:50px;" href="about.page.html">Go to about page</a>
   <ion-content class="ion-padding">
-    <ion-button [routerLink]="['/about']">Go to detail</ion-button>
     <ion-button expand="block">Block</ion-button>
     <ion-button expand="full">Full</ion-button>
-  </ion-content>
+    </ion-content>
+          <div class="list">
+            <div class="item">
+              to install : cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git
+              <br />
+              <br />
+              window.open(‘http://example.com’, ‘_system’);	Loads in the system browser <br />
+              window.open(‘http://example.com’, ‘_blank’);	Loads in the InAppBrowser<br />
+              window.open(‘http://example.com’, ‘_blank’, ‘location=no’);	Loads in the InAppBrowser with no location bar<br />
+              window.open(‘http://example.com’, ‘_self’);	Loads in the Cordova web view <br />
+            </div> <br />
+              <a class="item" href="#" onclick="window.open('http://www.google.com/', '_system', 'location=yes'); return false;">
+                  Open Google
+              </a><br />
+              <a class="item" href="#" onclick="window.open('https://www.twitter.com/nraboy', '_system', 'location=yes'); return false;">
+                  Open a Twitter Client or Browser
+              </a><br />
+              <a class="item" href="#" onclick="window.open('https://plus.google.com/+NicRaboy', '_system', 'location=yes'); return false;">
+                  Open a Google+ Client or Browser
+              </a><br />
+          </div>
  </ion-content>
  
  
